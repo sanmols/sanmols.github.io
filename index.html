@@ -2,43 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8", content="with=device-width", initial-scale="1.0">
-    <title>Homepage: sanmols</title>
-    <link rel="stylesheet" href="/sanmols.github.io/style.css">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
-    <div class="container_head">
-        <div class="box_header">
-            <div class="box_right">
-                <h1>Home</h1>
+    <header>
+        <nav class="box_header">
+            <img class="nav_image" src="/images/husky.png">
+            <ul class="nav_menu">
+                <li class="nav_item">
+                    <a href="index.html" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="project.html" class="nav_link">Project</a>
+                </li>
+                <li class="nav_item">
+                    <a href="about.html" class="nav_link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="box_left">
-                <div class="box_link_wrapper">
-                    <a href="index.html">Home</a>
-                </div>
-                <div class="box_link_wrapper">
-                    <a href="index.html">Project</a>
-                </div>
-                <div class="box_link_wrapper">
-                    <a href="about.html">About</a>
-                </div>
-                <div class="box_link_wrapper">
-                    <a href="index.html">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="container_body">
         <div class="box_body">
-            <div class="box_body_right">
-                <h1>Post</h1>
+            <div class="box_body_head">
+                <h1>Welcome</h1>
             </div>
-            <div class="box_body_left">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, aspernatur veniam ratione officiis praesentium similique nobis distinctio repellat expedita, reprehenderit corporis iure, beatae quod officia maiores eum fugit! Rerum, maxime.
+            <div class="body_image">
+                <img src="/images/me.JPG">
+            </div>
+            <div class="box_body_content">
+                <p>
+                    Hello World! 
+                    <br>
+                    <br>My naame is<strong>Anmol</strong> and here is my website to share my journey and introduce myself. I am building a pathway to DevOps methology to innovate in infrastructure automation by learning AWS and Python while using Linux for server management. 
+                    <br>
+                </p>
+            </div>
+            <div class="box_body_content_2">
+                <p>Check out my <button class="button_content_2"><a href="https://github.com/sanmols" target="_blank"> Github</a></button></p>
             </div>
         </div>
+        <div class="side_body">
+            <div class="side_header_body">
+                <h1>Project</h1>
+            </div>
+            
+        </div>
     </div>
+    <script src="/js/main.js"></script>
 </body>
 </html>
-
-
-
