@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     gap: 70px;
+    flex-wrap: wrap;
   
 }
 
@@ -20,6 +21,7 @@
     padding-right: 40px;
     box-shadow: 10px 10px 10px black;
     box-shadow: -10px -10px 10px black rgba(0, 0, 0, 70px);
+    margin-bottom: 40px;
 }
 
 .body_image{
@@ -50,8 +52,31 @@
     border-radius: 5px;
 }
 
+
+
+/* SIDE BOX */ 
+
+.side_body h1 {
+    font-family: "Segoe UI", "Arial", "Helvetica" ;
+}
+
+.side_body {
+    background-color: white;
+    width: 220px;
+    padding: 0px 20px;
+    font-family: "Courier New";
+    margin-bottom: 40px;
+
+}
+
+.side_header_body {
+    text-align: center;
+    border-bottom: 1px solid rgb(209, 201, 201);
+}
+
 .box_body_content_2 {
     cursor: pointer;
+    text-align: left;
 
 }
 
@@ -59,20 +84,4 @@
     text-decoration: none;
     color: rgb(42, 74, 123);
     transition: color 0.5s ease-in-out;
-}
-
-
-/* SIDE BOX */ 
-
-.side_body {
-    background-color: white;
-    width: 220px;
-    
-    
-
-}
-
-.side_header_body {
-    text-align: center;
-    border-bottom: 1px solid rgb(209, 201, 201);
 }
